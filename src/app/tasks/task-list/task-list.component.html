@@ -1,0 +1,6 @@
+<p>Task-list works! attenzione ...</p>
+
+<macx-enter-task (outEnterTask)="addTask($event)"></macx-enter-task>
+<div>
+  <macx-task *ngFor="let task of tasks" [task]="task"></macx-task>
+</div>

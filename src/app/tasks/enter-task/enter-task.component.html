@@ -1,0 +1,8 @@
+<!-- 
+    #titleInput - local view reference
+    we can use this reference within the current componenti view,
+    or query for the element within our component code.
+ -->
+<p>enter-task works!</p>
+<input type="text" placeholder="Enter new Task Title..." #titleInput />
+<button (click)="eneterTask(titleInput)">Add Task</button>
