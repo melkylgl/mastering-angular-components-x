@@ -19,7 +19,7 @@ export class EnterTaskComponent implements OnInit {
 
   enterTask(titleInput: HTMLInputElement) {
     this.outEnterTask.emit(titleInput.value);
-    titleInput.value = "...";
+    titleInput.value = " ";
     titleInput.focus();
   }
 }

@@ -16,8 +16,9 @@ export class TaskComponent implements OnInit {
   constructor() {}
   ngOnInit() {}
 
-  @HostBinding("class.done")
+  @HostBinding('class.done')
   get done() {
-    return this.task && this.done;
+    console.log(this.task.title + '-' + this.task.done)  ;
+    return ;
   }
 }

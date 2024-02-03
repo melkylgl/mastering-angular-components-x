@@ -7,8 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from "@angular/core";
 })
 export class TaskListComponent implements OnInit {
   tasks = [
-    { id: 1, title: "MelkyTask 1", done: false },
-    { id: 2, title: "MelkyTask 2", done: true },
+    { id: 1, title: "Task1", done: false },
+    { id: 2, title: "Task2 - fatto", done: true },
   ];
   constructor() {}
   ngOnInit() {}

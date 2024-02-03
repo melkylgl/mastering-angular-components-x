@@ -19,6 +19,7 @@ export class CheckboxComponent {
   constructor() {}
 
   check(checked: boolean) {
+    console.log('checked:' + checked);
     this.outCheck.emit(checked);
   }
 }
